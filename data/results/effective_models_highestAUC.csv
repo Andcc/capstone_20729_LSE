@@ -1,0 +1,6 @@
+model,file,variable,time_series_length (days),oversampled,AUC score,f1 constant,f1 decline,f1 improvement,,count_constant,count_decline,count_improvement,,,,f1_score_unweighted,f1_score_weighted,,outcome,,sensor
+MUSE,electricity_total_ts_resp,e_consumption,3,1,0.925,0.588,1,0.873,,44,3,101,,,,0.820320856,0.79158838,,resp,,electricity
+MrSEQL,electricity_nutrition_ts_resp,e_consumption,2,0,0.987,0.700,1,0.842,,36,4,79,,,,0.847368421,0.814210526,,resp,,electricity
+ROCKET,electricity_nutrition_ts_resp,e_consumption,3,0,0.969,0.933,1,0.974,,35,3,74,,,,0.969230769,0.963553114,,resp,,electricity
+iTDE,electricity_total_ts_resp,e_consumption,2,1,0.916,0.667,1,0.877,,46,4,110,,,,0.847953216,0.827631579,,resp,,electricity
+indvBOSS,electricity_nutrition_ts_resp_norm,e_consumption,3,1,0.958,0.941,1,0.973,,35,3,74,,,,0.971383148,0.96371792,,resp,,electricity
